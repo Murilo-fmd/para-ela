@@ -23,7 +23,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #c9abe1, #49225b);
+  background: linear-gradient(135deg, #b669a9, #661258);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ body {
   padding: 18px 36px;
   font-size: 1.2rem;
   color: white;
-  background: linear-gradient(45deg, #7f1e93, #d532f6);
+  background: linear-gradient(45deg, #210211, #8c0049);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -573,4 +573,4 @@ audio {
   .song-artist {
     font-size: 0.75rem;
   }
-}
+  }
