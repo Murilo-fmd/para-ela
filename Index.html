@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu amorzinho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Tela inicial -->
+<div id="startScreen">
+  <button id="startBtn">Clique aqui 💖</button>
+</div>
+
+<!-- Conteúdo principal -->
+<div class="container hidden" id="mainContent">
+  
+<!-- Player de música -->
+<div class="music-player" id="musicPlayer">
+  <div class="player-left">
+    <div class="player-controls">
+      <button id="playPauseBtn" class="play-pause-btn">
+        <div class="play-icon"></div>
+        <div class="pause-icon"></div>
+      </button>
+      <div class="song-info">
+        <div class="song-title">Bubble Gum</div>
+        <div class="song-artist">Clairo</div>
+      </div>
+    </div>
+    
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+      <div class="time-indicator" id="timeIndicator">
+        <span class="current-time">0:00</span>
+        <span class="total-time">0:00</span>
+      </div>
+    </div>
+  </div>
+  
+  <img src="ImagemMusica.jpg" alt="Capa do álbum" class="cover">
+</div>
+
+  <!-- Contador -->
+  <div id="contador" class="contador"></div>
+
+  <!-- Carrossel de fotos -->
+<div class="carousel" id="carousel">
+  <div class="slides">
+    <img src="Foto1.jpg" alt="Casal em momento especial - foto 1">
+    <img src="Foto2.jpg" alt="Casal em momento especial - foto 2">
+    <img src="Foto3.jpg" alt="Casal em momento especial - foto 3">
+    <img src="Foto4.jpg" alt="Casal em momento especial - foto 4">
+    <img src="Foto5.jpg" alt="Casal em momento especial - foto 5">
+    <img src="Foto6.jpg" alt="Casal em momento especial - foto 6">
+    <img src="Foto7.jpg" alt="Casal em momento especial - foto 7">
+    <img src="Foto8.jpg" alt="Casal em momento especial - foto 8">
+    <img src="Foto9.jpg" alt="Casal em momento especial - foto 9">
+    <img src="Foto10.jpg" alt="Casal em momento especial - foto 10">
+    <img src="Foto11.jpg" alt="Casal em momento especial - foto 11">
+    <img src="Foto12.jpg" alt="Casal em momento especial - foto 12">
+    <img src="Foto13.jpg" alt="Casal em momento especial - foto 13">
+    <img src="Foto14.jpg" alt="Casal em momento especial - foto 14">
+  </div>
+</div>
+
+  <!-- Indicadores (dots) -->
+  <div class="indicators" id="indicatorsContainer"></div>
+
+  <!-- TÍTULO ROMÂNTICO -->
+  <div class="section-title">
+    <h2>Para o amor da minha vida:</h2>
+  </div>
+
+  <!-- Texto romântico -->
+  <div class="text-content" id="textContent">
+    <p>Meu amor, cada momento contigo é um tesouro que guardo no coração. 💖</p>
+    <p>Quando olho para nossas fotos, lembro de todos os sorrisos, abraços e aventuras que vivemos juntos. Você ilumina meus dias e dá sentido às minhas noites.</p>
+    <p>Quero que cada lembrança aqui seja um lembrete do quanto você é especial para mim, e do quanto quero continuar colecionando momentos ao seu lado.</p>
+    <p>Obrigado por ser você, meu amor. 🌹</p>
+  </div>
+
+  <!-- Áudio -->
+  <audio id="music" src="musicadefundo.mp3" loop></audio>
+</div>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
